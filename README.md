@@ -1,3 +1,8 @@
+A quick dirty port of my particle engine project over to Kotlin Multiplatform. It includes a custom Quadtree for polygon collision detection. I also had to create a custom SortedSet to replcae the one Java provides. Since mine uses a Treap based approach instead of a red black tree, it doesn't perform quite as efficiently, but maybe someone will find it useful.
+
+
+
+
 This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
